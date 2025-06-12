@@ -44,3 +44,4 @@ def test_failed_authentication_invalid_format(client):
     assert response.status_code == 400
     json_data = response.get_json()
     assert 'formato inválido' in json_data['message']
+#Probando que las test funcionen
